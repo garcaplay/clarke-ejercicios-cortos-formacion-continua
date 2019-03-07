@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    background-color: white;
+    height: 100vh;
+}
+.instagram{
+    height: 256px;
+    width: 256px;
+    background: radial-gradient(circle at 40% 107%, #EFD882 10%, #F47618 45%, #D22A83 70%, #3F64D2 95%);
+    border-radius: 20%;
+    padding: 31px;
+}
+.instagram__camera{
+    position: relative;
+    height: 194px;
+    border: solid white 17px;
+    border-radius: 30%;
+}
+.instagram__view{
+    width: 23px;
+    height: 23px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 17px;
+    margin-right: 17px;
+    position: absolute;
+    right: 0;
+}
+.instagram__lens{
+    height: 99px;
+    width: 99px;
+    border: solid white 17px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(-30%, -30%);
+}
